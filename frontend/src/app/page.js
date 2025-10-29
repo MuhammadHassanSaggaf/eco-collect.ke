@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import './globals.css';
+
 
 export default function HomePage() {
   const router = useRouter();
