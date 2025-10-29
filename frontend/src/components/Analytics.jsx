@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import { Trophy, Users, Package, Leaf, Globe2 } from "lucide-react";
-import apiService from "../lib/apiService";
+import apiService from "@/lib/apiService";
 
 export default function CorporateAnalytics() {
   const [loading, setLoading] = useState(true);
